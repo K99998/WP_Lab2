@@ -5,6 +5,9 @@
 
 double calculateBMI(double weight, double height) {
     // oblicz BMI i zwróć wartość
+    int BMI;
+    BMI = weight/(height*height);
+    return BMI;
 }
 
 int main() {
